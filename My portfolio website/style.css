@@ -1,0 +1,144 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: red;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family:  sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(200, 0,0,0.3);
+
+}
+
+.nav{
+   
+    position: sticky;
+    top: 0px;
+    background-color: rgba(168,0,0, 1);
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(220,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav a{
+    display: block;
+    float: left;
+    padding: 9px 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.nav a:hover{
+    background-color: #666;
+}
+.main{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0,200,0.3);
+    z-index: -2;
+    float:left ;
+}
+.row{
+    display: flex;
+    margin: 4px;
+    margin-left: 26%;
+}
+
+.sidecol{
+    width: 25%;
+    padding: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(200, 0,0,0.3);
+    z-index: -1;
+    position: sticky;
+    top: 25px;
+    float: left;
+}
+
+.sidecolright{
+    width: 25%;
+    position: sticky;
+    top: 25px;
+    float: right;
+    margin-left: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(200, 0,0,0.3);
+    z-index: -1;
+}
+.about img{
+    display: block;
+    margin: auto;
+    border-radius: 10em;
+}
+.about{
+    background-color: rgb(249, 249, 255);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 50,0,0.3);
+    font-family: sans-serif;
+    height: 100vh;
+    z-index: 2;
+    position: sticky;
+    top: 30px;
+}
+
+.project{
+    /* display: inline-block; */
+    background-color: rgb(249, 249, 255);
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 82, 1, 0.326);
+    height: 100vh;
+    float: left;
+    position: sticky;
+    top: 30px;
+    margin: 5px;
+    padding: 10px;
+    z-index: 2;
+}
+.button:hover{
+        font-weight: bolder;
+        color: #333;
+}
+/* .contact img{
+    display: block;
+} */
+.contact{
+
+    background-color: rgb(44,44,44);
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 50,0,0.3);
+    display: block;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 30px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    z-index: 2;
+}
+.card{
+    /* background-color: #999; */
+    font-family:sans-serif;
+    padding: 5px;
+   }
+
+.footer{
+    background-color: #333;
+
+    color: red;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+  
+    z-index: -1;
+}
